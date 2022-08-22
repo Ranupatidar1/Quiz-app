@@ -1,0 +1,58 @@
+
+
+.main input {
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: rgb(226, 232, 235);
+    border-radius: 3px;
+    width: 21vw;
+    
+ }
+ #Quiz {
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: rgb(226, 232, 235);
+     border-radius: 3px;
+     width: 22vw;
+
+    
+ }
+ 
+ .btn {
+   background-color: orange;
+    border: 1px solid transparent;
+    padding: 5px;
+    
+     border-radius: 3px;
+     width: 22vw;
+    
+ }
+    
+ 
+ .form{
+  display: flex;
+  justify-content: center;
+ }
+ .main{
+   margin-top: 100px;
+    width: 290px;
+    height: 380px;
+    border-radius: 3px;
+    padding: 30px 50px;
+    background-color: white
+    
+    
+}
+body{
+    background-color: rgb(226, 232, 235);
+    
+   
+    width: 100%;
+    height: 100vh;
+    
+}
+@media (max-width:500px){
+    .header-logo{
+      flex-direction: column;
+    }
+  }
